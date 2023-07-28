@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emirhan Karakoç's CV Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#header">Main</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Emirhan</span><br>Karakoç from Turkey</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>I'm studying at Pamukkale University &#40;in Turkey&#41;. I love creating new things; never invented, nobody thinked, nobody created.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Backend Development</span><br>Java, C#, Spring, QA Testing, SQL</li>
+                            <li><span>Frontend Development</span><br>HTML, CSS, Bootstrap</li>
+                            <li><span>Video Editing</span><br>Adobe After Effects, Adobe Premiere Pro</li>
+                            <li><span>Principles</span><br>OOP, SOLID, Responsive - Request pattern, Multitier architecture</li>
+                            <li><span>Web API</span><br>HTTP Protocols</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Desktop App Development in AKCASOFT</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        
+                        <ul>
+                            <li><span>2021-Current</span><br>Bachelor of computer engineering</li>
+                            <li><span>2017-2021</span><br>High school graduation from Baku Turk Anatolian High School</li>
+                            <li><span>2017-2020</span><br>Junior Computer Academy graduation from STEP IT Computer Academy Baku</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                    <h2>Backend Development</h2>
+                    <p>Java Spring projects, C# Desktop Apps</p>
+                    <a href="https://www.github.com/emirhankarakoc">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Web Development</h2>
+                    <p>This website :&#41; </p>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Problem Solving</h2>
+                    <p>yeah. everyone wrote this skill. so, i thought i must wrote it... <br><br> believe me im really genious</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/rentacar650.png" alt="">
+                    <div class="layer">
+                        <h2>Rent A Car</h2>
+                        <p>Technologies used, Springboot, Spring Jpa, PostgreSQL, SOLID principles, Java, Response-Request pattern, Exception handling and defensive programming. All in for auto gallery.</p>
+                        <a href="https://github.com/emirhankarakoc/rentACar_spring"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/bugunneyapsam650.png" alt="">
+                    <div class="layer">
+                        <h2>What Should I Cook Today App</h2>
+                        <p>Technologies used, C# and OOP. App recommends different food always, there is no limit. Everytime new recommendation.</p>
+                        <a href="https://github.com/emirhankarakoc/BugunNeYapsamApp"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/3MONITOR650.png" alt="">
+                    <div class="layer">
+                        <h2>3 Monitor Restaurant App</h2>
+                        <p>Technologies used, Java and OOP, this application solves the problems of the KITCHEN-WAITER-CASHYER triangle.</p>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div><br>
+            <H4 style="text-align: center;">Im not a designer, a good composition is their role, not mine XD</H6>
+            <a href="https://github.com/emirhankarakoc" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> emirhankarakoc@yahoo.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +90 &#40;542&#41;733-3289</p>
+                    <div class="social-icons">
+                        <p>You should look my youtube channel.</p><br>
+                        <a href="#"><i class="fab fa-instagram" style= "color: #b54768;"></i></a>
+                        <a href="#"><i class="fab fa-linkedin" style= "color: #b54768;"></i></a>
+                        <a href="#"><i class="fa-brands fa-github" style= "color: #b54768;"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube" style= "color: #b54768;"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <h1>Actually, there should have been a communication formula here, "name, surname and message"... I wrote a spambot that autofilled forms and harassing them. I didn't put a form here so they wouldn't do the same to me :&#41;. You can check out my videos showing how it works on my youtube channel. </h1>   
+                    <a href="https://youtu.be/xrrrN-TKAPM?t=79">Click for video</a> 
+
+                    <br><br>
+                    <h2>Send message with <a href="mailto:emirhankarakoc@yahoo.com"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a> &#40;&#60;---click&#41;</h2>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fas fa-heart"></i> copyright @emirhankarakoc</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
